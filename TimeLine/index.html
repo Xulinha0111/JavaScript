@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Julia Bellini Sorrente">
+    <meta name="keywords" content="html, css, pipoca, fim do mundo, máquina do tempo">
+    <title>Túnel do tempo</title>
+    <link rel="stylesheet" href="css/funciona.css">
+    <script src="js/idade.js"></script>
+</head>
+<body>
+    <header>
+        <figure>
+            <img class="logo" src="images/panda.png" alt="Sumiu o bagulho aqui" title="Este é o meu Logo">
+        </figure>
+
+        <nav>
+            <button>Home</button>
+            <button>Calculadora</button>
+            <button>Contato</button>
+        </nav>
+    </header>
+
+    <main class="divisor">
+        <section class="texto">
+            <h2>Informações Sobre o Projeto</h2>
+            <p>
+                Este projeto visa desenvolver a interatividade do JavaScript em páginas com HTML e CSS.
+            </p>
+        </section>
+
+        <section>
+            <form class="form">
+                Nome
+                <input type="text" class="form-input" id="nome" name="nome" required placeholder="Digite seu nome">
+
+                Idade
+                <section>
+                    <input type="number" class="form-input-idade" name="idade" id="idade" required placeholder="Digite sua idade">
+                </section>
+
+                Idade Futura
+                <input type="text" class="form-input" id="idadeFutura" name="idadeFutura" disabled placeholder="Aqui não aceita nenhuma informação.">
+
+                <section class="form-button">
+                    <button onclick="carregaJovem();" id="botao1">Novo</button>
+                    <button id="botao2">Idoso</button>
+                </section>
+
+                <section class="images">
+                    <section id="novo"></section>
+                    <section id="idoso"></section>
+                </section>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Direitos Autorais 
+            <a href="mailto:juliabesor@gmail.com">Julia Bellini Sorrente </a></p>
+    </footer>
+
+
+</body>
+</html>

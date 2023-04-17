@@ -1,0 +1,98 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+} 
+
+header{
+    background-color: rgb(223, 219, 219);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav > button{
+    font-size: 1em;
+    margin-right: 20px;
+    background-color: rgb(223, 219, 219);
+    border: solid;
+    color: darkcyan;
+}
+
+nav > button:hover{
+    font-size: 1.2em;
+    color: rgb(70, 96, 129);
+}
+
+.logo{
+    max-width: 15%;
+}
+
+.texto{
+    text-align: center;
+}
+
+
+.divisor{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.form{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    
+}
+
+.form-input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-input-idade{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.form-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-button > button{
+    font-size: 1em;
+    width: 40%;
+    background-color:white;
+    border: solid;
+    color: darkcyan;
+    margin-bottom: 20px;
+}
+
+.form-button:hover{
+    color: rgb(70, 96, 129);
+}
+
+.images{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+footer{
+    background-color: rgb(223, 219, 219);
+    height: 50px;
+    text-align: center;
+}
+
+footer > p{
+    color: darkcyan;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: darkcyan;
+}
