@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+}
+
+header {
+  background-color: rgb(127, 126, 123);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+nav > a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+nav > a:hover {
+  font-size: 1.3rem;
+  color: yellow;
+}
+
+figure {
+  max-width: 150px;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+footer {
+  background: rgb(127, 126, 123);
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  bottom: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+.form {
+  width: 50%;  
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.form-input {
+  width: 85%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.form-input-idade {
+  width: 30%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.perfil {    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;  
+  height: 250px;  
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px; 
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 5 auto;  
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;    
+  align-items: center;
+}
+
+#novo {
+  width: 48%;  
+  height: 300px;    
+}
+
+#idoso {
+  width: 48%;  
+  height: 300px;  
+}
+
+.form-button {
+  width: 40%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  opacity: .8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #B22222;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #500707;
+  border-right: 1px solid #500707;
+  transition: 1s;
+}
+
+.form-contact-button:hover {
+  opacity: 1;
+}
+
+.grupo {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
