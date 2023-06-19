@@ -1,0 +1,32 @@
+/*Configurar Variáveis de Ambiente*/
+:root {
+    --cor_fundo: rgb(255, 255, 255);
+    --cor_main: rgb(205, 170, 247);
+    --cor_main_dark: rgb(97, 50, 146);
+}
+
+/*Resetar o Contorno da página*/
+* {
+    outline: 0;
+}
+
+/*Reset da Página*/
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--cor_fundo);
+}
+
+main {
+    background: var(--cor_main);
+    width: 80%;
+    margin: 10px auto;
+}
+
+header{
+    background: var(--cor_main);
+}
+
+footer {
+    background: var(--cor_main);
+}
