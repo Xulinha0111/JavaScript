@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header> 
+    <figure>
+        <img src="images\figura.png" alt="">
+    </figure>
+    <h1>Calculadora Simples</h1>
+</header>
+
+<body>
+    <main>
+        <section class="dados">
+            <form id="forms" method="post">
+                <label for="num1">Número 1:</label>
+                <input type="number" id="n1" name="n1">
+
+                <label for="num2">Número 2:</label>
+                <input type="number" id="n2" name="n2">
+
+                <section id="resultado" name="resultado"></section>
+                <button type="button" onclick="Soma()">Soma</button>
+                <button type="button" onclick="Sub()">Subtração</button>
+                <button type="button" onclick="Mult()">Multiplicação</button>
+                <button type="button" onclick="Div()">Divisão</button>
+                <button type="button" onclick="Pot()">Potenciação</button>
+                <button type="reset" onclick="Limpar()">Limpar</button>
+            </form>
+        </section>
+
+        <aside>
+            <figure>
+                <img src="images\figura2.png" alt="figura2" title="tabela2">
+            </figure>
+        </aside>
+
+    </main>
+    <script src="js/main.js"></script>
+</body>
+<footer>
+    <p>Made by Julia Bellini Sorrente &copy;</p>
+</footer>
+</html>
