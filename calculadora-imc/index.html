@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Julia Bellini Sorrente">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>
+    <figure>
+        <img src="images/speedometer.png" alt="logo" title="Logo do site">
+    </figure>
+
+    <h1>Calculadora de IMC</h1>
+</header>
+
+<body>
+    <main>
+        <section class="dados">
+            <form action="/" method="post" id="health">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" name="peso" autocomplete="off">
+
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" name="altura" autocomplete="off">
+
+                <button type="submit">Calcular</button>
+                <button type="reset">Apagar</button>
+            </form>
+        </section>
+
+        <aside>
+            <figure>
+                <img src="images/grafico-imc.png" alt="tabela" title="Tabela IMC">
+            </figure>
+
+            <section id="resultado"></section>
+        </aside>
+    </main>       
+
+    <script src="js/script.js"></script>
+</body>
+
+<footer>
+    <p>Julia Bellini Sorrente</p>
+</footer>
+</html>
